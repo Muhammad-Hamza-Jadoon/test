@@ -24,5 +24,8 @@ git branch
 git remote add origin https://github.com/Muhammad-Hamza-Jadoon/test.git
 git push -u origin main
 
+# after making changes in remote, when you try to push through local, you will get error.
+# to resolve this error, you must first pull from remote inro local, then push.
+
 
 
