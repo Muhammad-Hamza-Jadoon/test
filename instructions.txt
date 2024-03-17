@@ -1,0 +1,8 @@
+git init
+git commit
+git add x.txt
+git status
+git commit -m "i added a text file"
+git add .
+git commit
+git status
