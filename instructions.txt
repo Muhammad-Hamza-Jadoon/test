@@ -5,4 +5,24 @@ git status
 git commit -m "i added a text file"
 git add .
 git commit
-git status
+git status 
+
+# creating new branch and shifting to it
+git checkout -b newbranch
+# commit some changes
+# move back to master branch
+git checkout master
+# previous commits not shown
+
+# merge changes to master
+git merge newbranch
+
+# show all available branches
+git branch
+
+# push local into remote
+git remote add origin https://github.com/Muhammad-Hamza-Jadoon/test.git
+git push -u origin main
+
+
+
